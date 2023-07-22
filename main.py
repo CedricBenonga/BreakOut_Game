@@ -27,7 +27,7 @@ screen.setup(width=600, height=600)
 screen.title("Cedric's Breakout Game")
 screen.tracer(0)
 
-# Creating the paddle
+# Moving the paddle
 screen.listen()
 screen.onkey(paddle.go_right, "Right")
 screen.onkey(paddle.go_left, "Left")
